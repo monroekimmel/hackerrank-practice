@@ -1,19 +1,3 @@
 INDEX VERSION 1.131+D:\repos-202008\hackerrank-practice\.metadata\.plugins\org.eclipse.jdt.core
-3288996992.index
-1595917117.index
-622695156.index
-480480695.index
-3479457570.index
-2596696752.index
-1330596820.index
-3055645121.index
-865451342.index
-2162799940.index
-2802862293.index
-1915088637.index
 618622532.index
-843227395.index
-2332544186.index
-3603637700.index
-212754236.index
-3078946649.index
+2422904437.index
