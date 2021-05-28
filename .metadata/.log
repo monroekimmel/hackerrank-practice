@@ -1285,3 +1285,133 @@ java.util.concurrent.TimeoutException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 16:56:13.113
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.soLwiALx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 16:56:13.113
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.soLwiALx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 16:56:13.114
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-24 16:56:13.114
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.soLwiALx => OK
+!SESSION 2021-05-27 20:37:25.492 -----------------------------------------------
+eclipse.buildId=4.7.1.202007271558-RELEASE
+java.version=1.8.0_282
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.ui 2 0 2021-05-27 20:37:31.044
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2021-05-27 20:37:31.044
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.jface 2 0 2021-05-27 20:37:36.645
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-05-27 20:37:36.645
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ab90d01,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@771d4db,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:43.412
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:43.412
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@108d59b6[org.springframework.tooling.boot.ls:1.20.0.202007271426(id=635)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:43.422
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:43.468
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-05-27 20:37:45.144
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Roe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:45.922
+!MESSAGE Boot LS startup time from start to initialized: 2495ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.077
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nfbKHgmMisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.079
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.080
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.082
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.084
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.085
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.085
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.086
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.nfbKHgmM => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.090
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.092
+!MESSAGE buffering callback sts4.classpath.nfbKHgmM java-loops false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.092
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.094
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.096
+!MESSAGE buffering callback sts4.classpath.nfbKHgmM java-if-else false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.096
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.099
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.100
+!MESSAGE buffering callback sts4.classpath.nfbKHgmM java-output-formatting false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.101
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.103
+!MESSAGE classpath=18 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.104
+!MESSAGE buffering callback sts4.classpath.nfbKHgmM stdin-stdout-practice false 18
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.105
+!MESSAGE executing callback sts4.classpath.nfbKHgmM 4 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-27 20:37:46.125
+!MESSAGE executing callback sts4.classpath.nfbKHgmM SUCCESS [done]
